@@ -25,8 +25,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:title", content: "吳政穎 Arz｜系統開發・AI 自動化" },
       {
         name: "twitter:description",
-        content:
-          "20+ 年系統開發與企業整合經驗，提供系統開發、技術顧問與實作教學。",
+        content: "20+ 年系統開發與企業整合經驗，提供系統開發、技術顧問與實作教學。",
       },
     ],
   }),
@@ -100,9 +99,7 @@ function Index() {
       {/* Sticky navigation */}
       <header
         className={`sticky top-0 z-40 border-b transition-colors ${
-          scrolled
-            ? "border-dashed border-ink/30 bg-paper/95 backdrop-blur"
-            : "border-transparent"
+          scrolled ? "border-dashed border-ink/30 bg-paper/95 backdrop-blur" : "border-transparent"
         }`}
       >
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 sm:px-6">
@@ -139,11 +136,7 @@ function Index() {
             className="flex size-9 items-center justify-center border border-ink md:hidden"
             aria-label={mobileOpen ? "關閉選單" : "開啟選單"}
           >
-            {mobileOpen ? (
-              <X className="size-4" />
-            ) : (
-              <Menu className="size-4" />
-            )}
+            {mobileOpen ? <X className="size-4" /> : <Menu className="size-4" />}
           </button>
         </div>
 
@@ -259,15 +252,11 @@ function Index() {
                   <div className="text-white/40">$ whoami</div>
                   <div className="text-lime">arz_wu · system developer & AI integrator</div>
 
-                  <div className="mt-3 text-white/40">
-                    $ ask --model "用三句話介紹吳政穎"
-                  </div>
+                  <div className="mt-3 text-white/40">$ ask --model "用三句話介紹吳政穎"</div>
                   <div className="text-white/90">
                     → 20+ 年系統開發實戰，從後台、金流、API 到 AI 自動化。
                   </div>
-                  <div className="text-white/90">
-                    → 擅長把說不清楚的需求，整理成可上線的系統。
-                  </div>
+                  <div className="text-white/90">→ 擅長把說不清楚的需求，整理成可上線的系統。</div>
                   <div className="text-white/90">
                     → 現在也協助企業與個人把 AI 真正帶進工作流程。
                   </div>
@@ -340,17 +329,17 @@ function Index() {
 
           <div className="mt-8 grid gap-10 lg:grid-cols-2 lg:gap-16">
             <div className="space-y-5 text-sm leading-relaxed text-ink/70">
+              <p>我是吳政穎，大家也叫我阿茲。</p>
               <p>
-                我是吳政穎，大家也叫我阿茲。
-              </p>
-              <p>
-                從早期企業網站、簡訊平台、APP 與電商系統，到後來的支付、CRM、API、金融科技與流程自動化，我長期處理的都是企業真正會遇到的系統問題。
+                從早期企業網站、簡訊平台、APP
+                與電商系統，到後來的支付、CRM、API、金融科技與流程自動化，我長期處理的都是企業真正會遇到的系統問題。
               </p>
               <p>
                 我的工作習慣，是先把需求、流程與資料關係釐清，再決定技術怎麼做。這讓我可以同時站在使用者、企業與工程端思考，將原本零散或說不清楚的需求，整理成可以執行的系統。
               </p>
               <p>
-                近年進一步投入 AI、n8n、LINE 官方帳號與 LLM 應用，也開始將多年系統實務轉成教學內容，協助企業與一般使用者把 AI 真正帶進工作流程。
+                近年進一步投入 AI、n8n、LINE 官方帳號與 LLM
+                應用，也開始將多年系統實務轉成教學內容，協助企業與一般使用者把 AI 真正帶進工作流程。
               </p>
             </div>
 
@@ -369,10 +358,7 @@ function Index() {
                     "技術顧問",
                     "實作教學",
                   ].map((tag) => (
-                    <span
-                      key={tag}
-                      className="border border-ink/30 px-3 py-1 text-[11px]"
-                    >
+                    <span key={tag} className="border border-ink/30 px-3 py-1 text-[11px]">
                       {tag}
                     </span>
                   ))}
@@ -413,9 +399,7 @@ function Index() {
                   核心能力
                 </h2>
               </div>
-              <span className="hidden text-[11px] text-ink/40 sm:inline">
-                04 modules
-              </span>
+              <span className="hidden text-[11px] text-ink/40 sm:inline">04 modules</span>
             </div>
 
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -555,9 +539,7 @@ function Index() {
                   精選代表案例
                 </h2>
               </div>
-              <span className="hidden text-[11px] text-ink/40 sm:inline">
-                06 cases
-              </span>
+              <span className="hidden text-[11px] text-ink/40 sm:inline">06 cases</span>
             </div>
 
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -622,11 +604,10 @@ function Index() {
 
             <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
               <div className="space-y-5 text-sm leading-relaxed text-ink/70">
+                <p>除了系統開發，我也將實務經驗整理成可操作的教學內容。</p>
                 <p>
-                  除了系統開發，我也將實務經驗整理成可操作的教學內容。
-                </p>
-                <p>
-                  授課方式以「示範 → 跟做 → 完成作品」為主，特別重視零基礎學員在真實操作時遇到的問題，而不是只介紹工具功能。
+                  授課方式以「示範 → 跟做 →
+                  完成作品」為主，特別重視零基礎學員在真實操作時遇到的問題，而不是只介紹工具功能。
                 </p>
               </div>
 
@@ -665,10 +646,7 @@ function Index() {
                       "Vibe Coding",
                       "中小企業 AI 工作流程設計",
                     ].map((topic) => (
-                      <span
-                        key={topic}
-                        className="border border-ink/30 px-3 py-1 text-[11px]"
-                      >
+                      <span key={topic} className="border border-ink/30 px-3 py-1 text-[11px]">
                         {topic}
                       </span>
                     ))}
@@ -796,9 +774,7 @@ function Index() {
       {/* Footer */}
       <footer className="border-t border-dashed border-ink/30">
         <div className="mx-auto flex max-w-6xl flex-col flex-wrap items-start justify-between gap-4 px-5 py-8 text-[11px] tracking-widest text-ink/50 sm:flex-row sm:items-center sm:px-6">
-          <span>
-            吳政穎 Arz｜System Development · AI Automation · Digital Integration
-          </span>
+          <span>吳政穎 Arz｜System Development · AI Automation · Digital Integration</span>
           <span>© 2026 Arz. All Rights Reserved.</span>
         </div>
       </footer>
@@ -811,10 +787,7 @@ function SkillBar({ label, value }: { label: string; value: number }) {
     <div className="flex items-center gap-2">
       <span className="w-28 text-white/50 sm:w-24">{label}</span>
       <span className="flex-1 overflow-hidden rounded-full bg-white/10">
-        <span
-          className="block h-1.5 bg-lime"
-          style={{ width: `${value}%` }}
-        />
+        <span className="block h-1.5 bg-lime" style={{ width: `${value}%` }} />
       </span>
       <span className="w-6 text-right text-white/40">{value}</span>
     </div>
@@ -863,17 +836,11 @@ function TimelineItem({
         side === "right" ? "sm:text-right" : ""
       }`}
     >
-      <div
-        className={`${
-          side === "right" ? "sm:order-2 sm:pl-8" : "sm:pr-8"
-        }`}
-      >
+      <div className={`${side === "right" ? "sm:order-2 sm:pl-8" : "sm:pr-8"}`}>
         <div className="absolute left-0 top-0 flex size-8 items-center justify-center border border-ink bg-paper sm:left-1/2 sm:-translate-x-1/2">
           <span className="size-2 bg-lime" />
         </div>
-        <div className="font-mono text-[11px] tracking-widest text-ink/50">
-          {period}
-        </div>
+        <div className="font-mono text-[11px] tracking-widest text-ink/50">{period}</div>
       </div>
       <div className={side === "right" ? "sm:order-1 sm:pr-8" : "sm:pl-8"}>
         <div className="border border-ink p-5">
@@ -909,14 +876,10 @@ function WorkCard({
         <span className="text-[10px] text-ink/50">{category}</span>
       </div>
       <h3 className="font-display text-lg font-bold leading-tight">{title}</h3>
-      <p className="mt-3 text-[12px] leading-relaxed text-ink/60">
-        {description}
-      </p>
+      <p className="mt-3 text-[12px] leading-relaxed text-ink/60">{description}</p>
       <div className="mt-4 border-t border-dashed border-ink/20 pt-3">
         <div className="text-[10px] text-ink/40">代表能力</div>
-        <p className="mt-1 text-[11px] leading-relaxed text-ink/70">
-          {capability}
-        </p>
+        <p className="mt-1 text-[11px] leading-relaxed text-ink/70">{capability}</p>
       </div>
     </article>
   );
@@ -933,9 +896,7 @@ function ValueCard({
 }) {
   return (
     <div className="group border border-ink bg-paper p-5 transition hover:-translate-y-1 hover:bg-ink hover:text-paper">
-      <div className="mb-4 text-[11px] text-ink/40 group-hover:text-lime/60">
-        {number}
-      </div>
+      <div className="mb-4 text-[11px] text-ink/40 group-hover:text-lime/60">{number}</div>
       <h3 className="font-display text-lg font-bold">{title}</h3>
       <p className="mt-3 text-[12px] leading-relaxed text-ink/60 group-hover:text-white/60">
         {description}
