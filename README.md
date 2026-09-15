@@ -1,9 +1,4 @@
 # AI Intro Me
-
-我要做一個給別人看就能知道我的個人網站  網站簡歷
-
-有一個可以先簡單認識我的（要跟ai有關喔）
-
 This project was built with [Lovable](https://lovable.dev).
 
 **Live app**: https://greet-ai-my-site.lovable.app
