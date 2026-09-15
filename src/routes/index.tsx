@@ -374,7 +374,7 @@ function Index() {
                   </li>
                   <li className="flex gap-3">
                     <span className="w-16 text-ink/40">現職</span>
-                    <span>造雨人科技｜系統開發、技術顧問、AI 應用與教學</span>
+                    <span>造雨人科技股份有限公司｜技術長</span>
                   </li>
                   <li className="flex gap-3">
                     <span className="w-16 text-ink/40">地區</span>
@@ -742,7 +742,7 @@ function Index() {
 
                   <div className="flex flex-wrap gap-3">
                     <a
-                      href="https://line.me"
+                      href="https://lin.ee/8PAjp8A"
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex items-center gap-1 bg-ink px-5 py-3 text-[12px] font-bold tracking-wide text-paper transition-colors hover:bg-lime hover:text-ink"
@@ -751,7 +751,7 @@ function Index() {
                       <ArrowUpRight className="size-3.5" />
                     </a>
                     <a
-                      href="mailto:contact@example.com"
+                      href="mailto:sharefood@gmail.com"
                       className="inline-flex items-center gap-1 border border-ink px-5 py-3 text-[12px] font-bold tracking-wide transition-colors hover:bg-ink hover:text-paper"
                     >
                       Email / 聯絡表單
