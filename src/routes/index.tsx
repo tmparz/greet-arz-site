@@ -932,7 +932,7 @@ function ValueCard({
   description: string;
 }) {
   return (
-    <div className="border border-ink bg-paper p-5 transition hover:-translate-y-1 hover:bg-ink hover:text-paper">
+    <div className="group border border-ink bg-paper p-5 transition hover:-translate-y-1 hover:bg-ink hover:text-paper">
       <div className="mb-4 text-[11px] text-ink/40 group-hover:text-lime/60">
         {number}
       </div>
